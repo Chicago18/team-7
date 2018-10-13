@@ -68,7 +68,7 @@ public class LogonMB extends AdminSession implements Serializable {
         currentUser=" ";
         addDetailMessage("Logged in successfully as Registration: <b>" + email + "</b>");
         Faces.getExternalContext().getFlash().setKeepMessages(true);
-        Faces.redirect("registration.jsf");
+        Faces.redirect("index4.jsf");
     }
 
     @Override

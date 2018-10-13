@@ -25,12 +25,14 @@ public class Utils implements Serializable {
     @PostConstruct
     public void init() {
         cars = new ArrayList<>();
-        IntStream.rangeClosed(1, 50)
+        IntStream.rangeClosed(1, 8)
                 .forEach(i -> cars.add(create(i)));
+        		
+        
     }
 
     private static Car create(int i) {
-        return new Car(i).model("model " + i).name("name" + i).price(Double.valueOf(i));
+        return new Car(i).model(""+i).name("name" + i).price(Double.valueOf(i));
     }
 
     public static void addDetailMessage(String message) {

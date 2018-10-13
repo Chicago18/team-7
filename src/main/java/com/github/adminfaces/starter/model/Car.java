@@ -15,12 +15,20 @@ public class Car implements Serializable, Comparable<Car> {
     private String model;
     private String name;
     private Double price;
+    private Integer grade;
+    private String income;
 
     public Car() {
     }
 
     public Car(Integer id) {
         this.id = id;
+    }
+    
+    public Car(int grade, String name, String income){
+    	this.grade = grade;
+    	this.name = name;
+    	this.income = income;
     }
 
     public String getModel() {
@@ -59,10 +67,17 @@ public class Car implements Serializable, Comparable<Car> {
         this.model = model;
         return this;
     }
+    
+    //public Car info(String)
 
     public Car price(Double price) {
         this.price = price;
         return this;
+    }
+    
+    public Car income(String income){
+    	this.income = income;
+    	return this;
     }
 
     public Car name(String name) {
