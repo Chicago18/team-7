@@ -48,9 +48,21 @@ public class LogonMB extends AdminSession implements Serializable {
 
     public void goToAdminPage() throws IOException {
         currentUser = email;
-        addDetailMessage("Logged in successfully as <b>" + email + "</b>");
+        addDetailMessage("Logged in successfully as Admin: <b>" + email + "</b>");
+        Faces.getExternalContext().getFlash().setKeepMessages(true);
+        Faces.redirect("index1.jsf");
+    }
+    public void goToParentPage() throws IOException {
+        currentUser = email;
+        addDetailMessage("Logged in successfully as Parent: <b>" + email + "</b>");
         Faces.getExternalContext().getFlash().setKeepMessages(true);
         Faces.redirect("index2.jsf");
+    }
+    public void goToStudentPage() throws IOException {
+        currentUser = email;
+        addDetailMessage("Logged in successfully as Student: <b>" + email + "</b>");
+        Faces.getExternalContext().getFlash().setKeepMessages(true);
+        Faces.redirect("index3.jsf");
     }
 
     @Override

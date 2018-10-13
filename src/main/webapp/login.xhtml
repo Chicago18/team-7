@@ -103,11 +103,11 @@
                                              value="Sign in as Admin" update="@form"/>
                         </div>
                         <div class="col-xs-12">
-                            <p:commandButton styleClass="btn btn-success btn-block" action="#{logonMB.login}" onclick="showBar()" oncomplete="if(args.validationFailed){hideBar()}"
+                            <p:commandButton styleClass="btn btn-success btn-block" action="#{logonMB.goToParentPage}" onclick="showBar()" oncomplete="if(args.validationFailed){hideBar()}"
                                              value="Sign in as Parent" update="@form"/>
                         </div>
                         <div class="col-xs-12">
-                            <p:commandButton styleClass="btn btn-success btn-block" action="#{logonMB.login}" onclick="showBar()" oncomplete="if(args.validationFailed){hideBar()}"
+                            <p:commandButton styleClass="btn btn-success btn-block" action="#{logonMB.goToStudentPage}" onclick="showBar()" oncomplete="if(args.validationFailed){hideBar()}"
                                              value="Sign in as Student" update="@form"/>
                         </div>
                     </div>
