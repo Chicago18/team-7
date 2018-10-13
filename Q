@@ -1,0 +1,41 @@
+[33mcommit e3f8f2a933dab3505b987cdd09009f4600e4b7d4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Alex Lopez <alope6@uic.edu>
+Date:   Sat Oct 13 10:19:25 2018 -0500
+
+    updated everything
+
+[33mcommit 7e61fc3005a40c5ee89551c204ab3379fe15bb71[m
+Author: Alex Lopez <alope6@uic.edu>
+Date:   Sat Oct 13 08:24:09 2018 -0500
+
+    added registration page
+
+[33mcommit 1bb3fc77be20ec16df64adbdc793c6357145f547[m[33m ([m[1;32m1bb3fc8[m[33m)[m
+Author: Alex Lopez <alope6@uic.edu>
+Date:   Sat Oct 13 05:17:33 2018 -0500
+
+    linked pages from login screen
+
+[33mcommit b5a644e6d3a654683c678f1cbde94d05c12a2ef8[m
+Author: Alex Lopez <alope6@uic.edu>
+Date:   Sat Oct 13 01:28:26 2018 -0500
+
+    redirected to index2 for admin, still need to setup pages
+
+[33mcommit 96771e3bc14ff3c57821ca3ad36d9334c4800705[m
+Author: Alex Lopez <alope6@uic.edu>
+Date:   Fri Oct 12 22:16:04 2018 -0500
+
+    deleted social media options for login
+
+[33mcommit 8251f5ff60aad8c0eb4ff086046d723bf5e308b8[m
+Author: Iqra <imemon3>
+Date:   Fri Oct 12 21:41:12 2018 -0500
+
+    setup
+
+[33mcommit b573e16fa88cbf5c5c147ce3b5fee5b63d1412ac[m
+Author: arre1908 <arredoluis@gmail.com>
+Date:   Fri Oct 12 15:21:30 2018 -0500
+
+    initial commit

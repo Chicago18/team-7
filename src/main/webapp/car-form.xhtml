@@ -5,7 +5,7 @@
                 template="#{layoutMB.template}">
 
     <ui:define name="title">
-        Car form
+        New Student
     </ui:define>
 
     <ui:define name="body">
@@ -71,7 +71,7 @@
                                          readonly="true" styleClass="form-control" style="width: 100%"/>
                         </div>
                         <div class="ui-sm-12 ui-md-2 ui-lg-1">
-                            <p:outputLabel value="Model" for="inptModel"/>
+                            <p:outputLabel value="Grade" for="inptModel"/>
                         </div>
                         <div class="ui-sm-12 ui-md-4 ui-lg-5" >
                             <p:inputText id="inptModel" value="#{carFormMB.car.model}"/>
@@ -83,7 +83,7 @@
                             <p:inputText id="inptName" value="#{carFormMB.car.name}"/>
                         </div>
                         <div class="ui-sm-12 ui-md-2 ui-lg-1">
-                            <p:outputLabel value="Price" for="inptPrice"/>
+                            <p:outputLabel value="Income Level" for="inptPrice"/>
                         </div>
                         <div class="ui-sm-12 ui-md-4 ui-lg-5" >
                             <p:inputNumber id="inptPrice" value="#{carFormMB.car.price}"/>
