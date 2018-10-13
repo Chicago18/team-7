@@ -6,7 +6,7 @@
                 template="#{layoutMB.template}">
 
     <ui:define name="metadata">
-        <ui:param name="title" value="Car listing"/> <!-- Automatic create breadCrumb and page title when param 'title' is provided. --> 
+        <ui:param name="title" value="Registrations"/> <!-- Automatic create breadCrumb and page title when param 'title' is provided. --> 
         <style type="text/css">
             .ui-datatable .ui-datatable-header {
                 text-align: right !important;
@@ -16,7 +16,7 @@
     </ui:define>
 
     <ui:define name="description">
-        Find cars by name, price and model
+        Find students by grade, name, id
     </ui:define>
 
     <ui:define name="body">
@@ -73,7 +73,7 @@
 
 
                         <f:facet name="header">
-                            Find Car by id: <p:inputNumber id="inptId" decimalPlaces="0" value="#{carListMB.id}"/>
+                            Find Student by id: <p:inputNumber id="inptId" decimalPlaces="0" value="#{carListMB.id}"/>
                             <p:spacer height="5"/>
                             <p:commandButton id="brFind"
                                              value="Find"
@@ -85,7 +85,7 @@
                         </f:facet>
                         <p:column selectionMode="multiple" width="5%" styleClass="align-center"/>
 
-                        <p:column headerText="Model" filterBy="#{c.model}" sortBy="#{c.model}"
+                        <p:column headerText="Grade" filterBy="#{c.model}" sortBy="#{c.model}"
                                   filterMatchMode="contains">
                             <f:facet name="filter">
                                 <p:autoComplete value="#{carListMB.filter.entity.model}" forceSelection="true"
@@ -108,7 +108,7 @@
                             </f:facet>
                             #{c.name}
                         </p:column>
-                        <p:column headerText="Price" sortBy="#{c.price}" filterBy="#{c.price}">
+                        <p:column headerText="Income" sortBy="#{c.price}" filterBy="#{c.price}">
                             <f:facet name="filter">
                                 <p:spinner value="#{carListMB.filter.entity.price}">
                                     <f:converter converterId="javax.faces.Double"/>

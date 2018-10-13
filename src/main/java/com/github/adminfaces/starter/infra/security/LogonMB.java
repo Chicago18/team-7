@@ -40,10 +40,9 @@ public class LogonMB extends AdminSession implements Serializable {
 
 
     public void login() throws IOException {
-        currentUser = email;
         addDetailMessage("Logged in successfully as <b>" + email + "</b>");
         Faces.getExternalContext().getFlash().setKeepMessages(true);
-        Faces.redirect("index1.jsf");
+        Faces.redirect("index4.jsf");
     }
 
     public void goToAdminPage() throws IOException {
@@ -63,6 +62,13 @@ public class LogonMB extends AdminSession implements Serializable {
         addDetailMessage("Logged in successfully as Student: <b>" + email + "</b>");
         Faces.getExternalContext().getFlash().setKeepMessages(true);
         Faces.redirect("index3.jsf");
+    }
+    
+    public void goToRegistrationPage() throws IOException {
+        currentUser=" ";
+        addDetailMessage("Logged in successfully as Registration: <b>" + email + "</b>");
+        Faces.getExternalContext().getFlash().setKeepMessages(true);
+        Faces.redirect("registration.jsf");
     }
 
     @Override
