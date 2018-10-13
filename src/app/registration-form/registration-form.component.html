@@ -1,75 +1,127 @@
 <form>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="firstName">First Name *</label>
-      <input type="text" id="firstName" class="form-control">
+    <div class="form-group">
+        <label for="Guardian1">Parent/Guardian #1</label>
+        <input type="text" id="Guardian1" class="form-control">
     </div>
-    <div class="form-group col-md-6">
-      <label for="lastName">Last Name *</label>
-      <input type="text" id="lastName" class="form-control">
+    <div class="form-group">
+        <label for="Birthday">Birthday</label>
+        <input type="text" id="Birthday" class="form-control" placeholder="MM/DD/YYYY">
     </div>
-  </div>
-  <div class="form-group">
-    <label for="homeAddress1">Address 1 *</label>
-    <input type="text" id="homeAddress1" class="form-control" placeholder="Street address">
-  </div>
-  <div class="form-group">
-    <label for="homeAddress2">Address 2</label>
-    <input type="text" id="homeAddress2" class="form-control" placeholder="Apartment, studio, or floor">
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="homeZipcode">Zip Code *</label>
-      <input type="text" id="homeZipcode" class="form-control">
+    <div class="form-group">
+        <label for="Relation">Relation(select one)</label>
+        <select id="Relation" class="custom-select">
+            <option value="Mom">Mom</option>
+            <option value="Dad">Dad</option>
+            <option value="Other">Other</option>
+        </select>
     </div>
-    <div class="form-group col-md-6">
-      <label for="phoneNumber">Phone Number *</label>
-      <input type="tel" id="phoneNumber" class="form-control">
+    <div class="form-group">
+        <label for="Phone number">Phone number</label>
+        <input type="numberid" class="form-control">
     </div>
-  </div>
-  <label for="checkboxHispanic">Ethnicity *</label>
-  <div class="form-group">
-    <div class="form-check-inline">
-      <input type="radio" id="radioHispanic01" value="Yes" class="form-check-input">
-      <label for="ethnicity" class="form-check-label">Hispanic</label>
+    <div class="form-group">
+        <label for="Language">Primary Language</label>
+        <select id="Language" class="custom-select">
+            <option value="English">English</option>
+            <option value="Mandarin">Mandarin</option>
+            <option value="Cantonese">Cantonese</option>
+            <option value="OtherLanguage">Other</option>
+        </select>
     </div>
-    <div class="form-check-inline">
-      <input type="radio" id="checkboxHispanic02" value="No" class="form-check-input">
-      <label for="ethnicity" class="form-check-label">Not Hispanic</label>
+    <label for="Citizen">Are you a United States citizen?</label>
+    <div class="form-group">
+        <div class="form-check-inline">
+            <input type="radio" id="Citizin01" value="Yes" class="form-check-input">
+            <label for="Citizen" class="form-check-label">Yes</label>
+        </div>
+        <div class="form-check-inline">
+            <input type="radio" id="Citizin02" value="No" class="form-check-input">
+            <label for="Citizen" class="form-check-label">No</label>
+        </div>
     </div>
-  </div>
-  <div class="form-group">
-    <label for="raceSelect">Race *</label>
-    <select id="raceSelect" class="custom-select">
-      <option value="American Indian Alaskan Native">American India/Alaskan Native</option>
-      <option value="Asian">Asian</option>
-      <option value="Black/African American">Black/African American</option>
-      <option value="Native Hawaiian/Other Pacific Islander">Native Hawaiian/Other Pacific Islander</option>
-      <option value="White">White</option>
-      <option value="Other/Multi racial">Other/Multi racial</option>
-    </select>
-  </div>
-  <label for="checkboxGender">Gender *</label>
-  <div class="form-group">
-    <div class="form-check-inline">
-      <input type="radio" id="radioGender01" value="Yes" class="form-check-input">
-      <label for="ethnicity" class="form-check-label">Male</label>
+    <label for="Voter">Are you registered to vote?</label>
+    <div class="form-group">
+        <div class="form-check-inline">
+            <input type="radio" id="Voter01" value="Yes" class="form-check-input">
+            <label for="Voter" class="form-check-label">Yes</label>
+        </div>
+        <div class="form-check-inline">
+            <input type="radio" id="Voter02" value="No" class="form-check-input">
+            <label for="Voter" class="form-check-label">No</label>
+        </div>
     </div>
-    <div class="form-check-inline">
-      <input type="radio" id="radioGender02" value="No" class="form-check-input">
-      <label for="ethnicity" class="form-check-label">Female</label>
+    <label for="Otherintrests">Are you interested in other CMAA services, including free English classes,
+        free elderly assistance for elgible seniors, or otherwise</label>
+    <div class="form-group">
+        <div class="form-check-inline">
+            <input type="radio" id="interest01" value="Yes" class="form-check-input">
+            <label for="Otherintrests" class="form-check-label">Yes</label>
+        </div>
+        <div class="form-check-inline">
+            <input type="radio" id="interest02" value="No" class="form-check-input">
+            <label for="Otherintrests" class="form-check-label">No</label>
+        </div>
     </div>
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="dateOfBirth">Date of Birth</label>
-      <div class="form-group">
-        <input type="date" id="dateOfBirth" class="form-control">
-      </div>
+    <div class="form-group">
+        <label for="Guardian2">Parent/Guardian #2</label>
+        <input type="text" id="Guardian2" class="form-control">
     </div>
-    <div class="form-group col-md-6">
-      <label for="age">Age</label>
-      <input type="number" id="age" class="form-control">
+    <div class="form-group">
+        <label for="Birthday">Birthday</label>
+        <input type="text" id="Birthday" class="form-control" placeholder="MM/DD/YYYY">
     </div>
-  </div>
-</form>
+    <div class="form-group">
+        <label for="Relation">Relation(select one)</label>
+        <select id="Relation" class="custom-select">
+            <option value="Mom">Mom</option>
+            <option value="Dad">Dad</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="Phone number">Phone number</label>
+        <input type="numberid" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="Language">Primary Language</label>
+        <select id="Language" class="custom-select">
+            <option value="English">English</option>
+            <option value="Mandarin">Mandarin</option>
+            <option value="Cantonese">Cantonese</option>
+            <option value="OtherLanguage">Other</option>
+        </select>
+    </div>
+    <label for="Citizen">Are you a United States citizen?</label>
+    <div class="form-group">
+        <div class="form-check-inline">
+            <input type="radio" id="Citizin01" value="Yes" class="form-check-input">
+            <label for="Citizen" class="form-check-label">Yes</label>
+        </div>
+        <div class="form-check-inline">
+            <input type="radio" id="Citizin02" value="No" class="form-check-input">
+            <label for="Citizen" class="form-check-label">No</label>
+        </div>
+    </div>
+    <label for="Voter">Are you registered to vote?</label>
+    <div class="form-group">
+        <div class="form-check-inline">
+            <input type="radio" id="Voter01" value="Yes" class="form-check-input">
+            <label for="Voter" class="form-check-label">Yes</label>
+        </div>
+        <div class="form-check-inline">
+            <input type="radio" id="Voter02" value="No" class="form-check-input">
+            <label for="Voter" class="form-check-label">No</label>
+        </div>
+    </div>
+    <label for="Otherintrests">Are you interested in other CMAA services, including free English classes,
+        free elderly assistance for elgible seniors, or otherwise</label>
+    <div class="form-group">
+        <div class="form-check-inline">
+            <input type="radio" id="interest01" value="Yes" class="form-check-input">
+            <label for="Otherintrests" class="form-check-label">Yes</label>
+        </div>
+        <div class="form-check-inline">
+            <input type="radio" id="interest02" value="No" class="form-check-input">
+            <label for="Otherintrests" class="form-check-label">No</label>
+        </div>
+    </div>

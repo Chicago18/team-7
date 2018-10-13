@@ -1,0 +1,204 @@
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="firstName">First Name *</label>
+      <input type="text" id="firstName" class="form-control">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="lastName">Last Name *</label>
+      <input type="text" id="lastName" class="form-control">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="homeAddress1">Address 1 *</label>
+    <input type="text" id="homeAddress1" class="form-control" placeholder="Street address">
+  </div>
+  <div class="form-group">
+    <label for="homeAddress2">Address 2</label>
+    <input type="text" id="homeAddress2" class="form-control" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="homeZipcode">Zip Code *</label>
+      <input type="text" id="homeZipcode" class="form-control">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="phoneNumber">Phone Number *</label>
+      <input type="tel" id="phoneNumber" class="form-control">
+    </div>
+  </div>
+  <label for="checkboxHispanic">Ethnicity *</label>
+  <div class="form-group">
+    <div class="form-check-inline">
+      <input type="radio" id="radioHispanic01" value="Yes" class="form-check-input">
+      <label for="ethnicity" class="form-check-label">Hispanic</label>
+    </div>
+    <div class="form-check-inline">
+      <input type="radio" id="checkboxHispanic02" value="No" class="form-check-input">
+      <label for="ethnicity" class="form-check-label">Not Hispanic</label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="raceSelect">Race *</label>
+    <select id="raceSelect" class="custom-select">
+      <option value="American Indian Alaskan Native">American India/Alaskan Native</option>
+      <option value="Asian">Asian</option>
+      <option value="Black/African American">Black/African American</option>
+      <option value="Native Hawaiian/Other Pacific Islander">Native Hawaiian/Other Pacific Islander</option>
+      <option value="White">White</option>
+      <option value="Other/Multi racial">Other/Multi racial</option>
+    </select>
+  </div>
+  <label for="checkboxGender">Gender *</label>
+  <div class="form-group">
+    <div class="form-check-inline">
+      <input type="radio" id="radioGender01" value="Yes" class="form-check-input">
+      <label for="ethnicity" class="form-check-label">Male</label>
+    </div>
+    <div class="form-check-inline">
+      <input type="radio" id="radioGender02" value="No" class="form-check-input">
+      <label for="ethnicity" class="form-check-label">Female</label>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="dateOfBirth">Date of Birth</label>
+      <div class="form-group">
+        <input type="date" id="dateOfBirth" class="form-control">
+      </div>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="age">Age</label>
+      <input type="number" id="age" class="form-control">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="currentgrade">Current Grade or Highest Education Level</label>
+      <div class="form-group">
+        <input type="text" id="currentgrade" class="form-control" > 
+      </div>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="School">School</label>
+      <input type="text" id="School" class="form-control">
+    </div>
+  </div>
+  <label for="Disabled">Disabled</label>
+  <div class="form-row">
+      <div class="form-group col-md-6">
+      <div class="form-check-inline">
+        <input type="radio" id="Disabled01" value="Yes" class="form-check-input">
+        <label for="Disabled" class="form-check-label">Yes</label>
+      </div>
+      <div class="form-check-inline">
+        <input type="radio" id="Disabled02" value="No" class="form-check-input">
+        <label for="Disabled" class="form-check-label">No</label>
+      </div>
+    </div>
+    <div class="form-group col-md-6">
+        <label for="whydisabled">If yes, please specify</label>
+        <input type="text" id="whydisabled" class="form-control">
+      </div>
+  </div>
+  <div class="form-group">
+      <label for="Familytype">Family Type (Select One)</label>
+      <select id="Familytype" class="custom-select">
+        <option value="Single Parent/Female">Single Parent/Female</option>
+        <option value="Single Parent/Male">Single Parent/Male</option>
+        <option value="Two-Parent Household">Two-Parent Household</option>
+        <option value="Independant Youth">Independant Youth</option>
+        <option value="Relative">Relative</option>
+        <option value="Gaurdian">Gaurdian</option>
+      </select>
+    </div>
+    <div class="form-group">
+        <label for="Housing">Housing Status (Select One)</label>
+        <select id="Housing" class="custom-select">
+          <option value="Rent">Rent</option>
+          <option value="Own">Own</option>
+          <option value="Homeless/Shelter">Homeless/Shelter</option>
+          <option value="In Temporary Housing">In Temporary Housing</option>
+        </select>
+      </div>
+      <label for="Food Stamps">Food Stamps</label>
+  <div class="form-group">
+    <div class="form-check-inline">
+      <input type="radio" id="Food Stamps01" value="Yes" class="form-check-input">
+      <label for="Food Stamps" class="form-check-label">Yes</label>
+    </div>
+    <div class="form-check-inline">
+      <input type="radio" id="Food Stamps02" value="No" class="form-check-input">
+      <label for="Food Stamps" class="form-check-label">No</label>
+    </div>
+  </div>
+  <label for="Free Lunch">Free/Reduced Lunch</label>
+  <div class="form-group">
+    <div class="form-check-inline">
+      <input type="radio" id="Freelunch01" value="Yes" class="form-check-input">
+      <label for="Freelunch" class="form-check-label">Yes</label>
+    </div>
+    <div class="form-check-inline">
+      <input type="radio" id="Freelunch02" value="No" class="form-check-input">
+      <label for="Freelunch" class="form-check-label">No</label>
+    </div>
+  </div>
+  <label for="HealthInsurance">Health Insurance</label>
+  <div class="form-group">
+    <div class="form-check-inline">
+      <input type="radio" id="HealthInsurance01" value="Yes" class="form-check-input">
+      <label for="HealthInsurance" class="form-check-label">Yes</label>
+    </div>
+    <div class="form-check-inline">
+      <input type="radio" id="HealthInsurance02" value="No" class="form-check-input">
+      <label for="HealthInsurance" class="form-check-label">No</label>
+    </div>
+  </div>
+
+  <label for="Income">Income Source (check all that apply)</label>
+  <div class="form-group">
+    <div class="form-check-inline">
+      <input type="radio" id="Employment" value="Employment" class="form-check-input">
+      <label for="Income" class="form-check-label">Employment</label>
+    </div>
+    <div class="form-check-inline">
+        <input type="radio" id="Pension" value="Pension" class="form-check-input">
+        <label for="Income" class="form-check-label">Pension</label>
+    </div>
+    <div class="form-check-inline">
+        <input type="radio" id="TANF" value="TANF" class="form-check-input">
+        <label for="Income" class="form-check-label">Pension</label>
+    </div>
+    <div class="form-check-inline">
+        <input type="radio" id="Earnfare" value="Earnfare" class="form-check-input">
+        <label for="Income" class="form-check-label">Earnfare</label>
+    </div>
+    <div class="form-check-inline">
+        <input type="radio" id="Social Security" value="Social Security" class="form-check-input">
+        <label for="Income" class="form-check-label">Social Security</label>
+    </div>
+    <div class="form-check-inline">
+        <input type="radio" id="Unemployment Insurance" value="Unemployment Insurance" class="form-check-input">
+        <label for="Income" class="form-check-label">Unemployment Insurance</label>
+    </div>
+    <div class="form-check-inline">
+        <input type="radio" id="Other" value="Other" class="form-check-input">
+        <label for="Income" class="form-check-label">Other</label>
+    </div>
+    <div class="form-check-inline">
+        <input type="radio" id="SSI" value="SSI" class="form-check-input">
+        <label for="Income" class="form-check-label">SSI</label>
+    </div>
+  </div>
+  <div class="form-group">
+      <label for="Referral">Source Of Referral</label>
+      <input type="text" id="Referral" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="CHA">CHA Client ID#</label>
+        <input type="text" id="CHA" class="form-control">
+      </div>
+  
+  
+
+</form>
